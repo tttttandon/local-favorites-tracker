@@ -1,1 +1,25 @@
-console.log('app.js connected');
+
+let myFavorite = {
+    
+    name: 'Starbucks on University Drive',
+    category: 'coffee',
+    rating: 5,
+    notes: 'Great study spot with fast wifi',
+    dateAdded: new Date().toLocaleDateString()
+};
+
+console.log(myFavorite);
+console.log(myFavorite.name);
+console.log(myFavorite.category);
+console.log(myFavorite.rating);
+console.log(myFavorite.notes);
+console.log(myFavorite.dateAdded);
+
+let displayText = myFavorite.name + ' - Rating: ' + myFavorite.rating + '/5';
+console.log(displayText);
+
+console.log(typeof myFavorite.name);
+console.log(typeof myFavorite.category);
+console.log(typeof myFavorite.rating);
+console.log(typeof myFavorite.notes);
+console.log(typeof myFavorite.dateAdded);
