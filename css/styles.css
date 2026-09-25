@@ -27,6 +27,7 @@ img {
     --color-bg: #f7f8fb;
     --color-surface: #ffffff;
     --color-surface-alt: #f1f5f9;
+    --color-danger: #b42318;
 
 
     /* Spacing — a modular scale */
@@ -155,5 +156,20 @@ textarea {
 @media (min-width: 768px) {
     .favorites-grid {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+
+/* ==========================
+   7. BUTTONS
+   ========================== */
+.btn-danger {
+    background-color: var(--color-danger);
+    color: #fff;
+    
+
+
     }
+
+
+
+
 }
